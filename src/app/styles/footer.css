@@ -1,0 +1,23 @@
+.footer{
+    margin-top:4rem;
+    padding: 1.5rem;
+    text-align: center;
+    background-color:greenyellow ;
+    color:#fff;
+    font-size: 1rem;
+}
+
+/* response design */
+@media(max-width:768px){
+    .footer{
+        padding: 1rem;
+        font-size: 0.875;
+    }
+}
+
+@media(min-width:768){
+    .footer{
+        padding: 1.5rem;
+        font: size 1.125rem ;
+    }
+}
